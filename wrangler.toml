@@ -71,6 +71,9 @@ compatibility_flags = ["nodejs_compat"]
 # [[kv_namespaces]]
 # binding = "MY_KV_NAMESPACE"
 # id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+kv_namespaces = [
+  {binding = "JOBINATOR", id = "7ff100ee5f1043e4ab015b453a1d8455"}
+]
 
 # Bind an mTLS certificate. Use to present a client certificate when communicating with another service.
 # Docs: https://developers.cloudflare.com/workers/wrangler/configuration/#mtls-certificates
