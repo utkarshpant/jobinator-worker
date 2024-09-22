@@ -18,6 +18,10 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0",
-    "openai": "^4.63.0"
+    "openai": "^4.63.0",
+    "rehype-stringify": "^10.0.0",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.1",
+    "unified": "^11.0.5"
   }
 }
